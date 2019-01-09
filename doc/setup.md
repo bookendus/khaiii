@@ -18,6 +18,24 @@ MacOS Mojave | LLVM-10.0.0
 ### Python
 khaiii는 실행하기 위한 프로그램과 함께 리소스(사전)를 필요로 합니다. 이 리소스는 Python 스크립트를 통해 빌드되는데, 이때 Python 3.6 이상의 버전이 필요합니다. 또한 몇 가지 패키지들을 필요로 하므로 pip를 통해 아래와 같이 설치합니다.
 
+
+### 가상환경 구축
+python 버전등을 맞추기 위하여 가상환경을 구축합니다.
+가상환경을 위해서는 venv가 필요합니다.
+```
+apt-get install python3-venv
+```
+
+가상환경 생성합니다.
+```
+python3 -m venv khaiii-env
+```
+
+가상환경을 활성화합니다.
+```
+source khaiii-env/bin/activate
+```
+
 ```
 pip install -r requirements.txt
 ```
