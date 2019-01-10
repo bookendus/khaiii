@@ -36,6 +36,7 @@ python3 -m venv khaiii-env
 source khaiii-env/bin/activate
 ```
 
+필요한 패키지를 설치합니다.
 ```
 pip install -r requirements.txt
 ```
